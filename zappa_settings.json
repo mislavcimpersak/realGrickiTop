@@ -1,0 +1,86 @@
+{
+    "prod": {
+        "aws_region": "eu-central-1",
+        "s3_bucket": "realgrickitop",
+        "apigateway_enabled": false,
+
+        "events": [{
+            "function": "main.post_tweet",
+            "expressions": [
+                // everday at noon in Croatia (CET/CEST)
+
+                //
+                // AWS Lambda uses UTC and the tweet MUST be sent at noon
+                // but at local Croatian time, not UTC.
+                // Because of that: this monstrosity.
+                // reference:
+                // http://docs.aws.amazon.com/lambda/latest/dg/tutorial-scheduled-events-schedule-expressions.html
+                //
+
+                "cron(58 9 * 4-9 ? 2017,2018,2019,2020,2021,2022)",    // +2 summer 2017, 2018, 2019, 2020, 2021, 2022
+                "cron(58 10 * 11-12 ? 2017,2018,2019,2020,2021,2022)",  // +1 winter 2017, 2018, 2019, 2020, 2021, 2022
+                "cron(58 10 * 1-2 ? 2018,2019,2020,2021,2022,2023)",    // +1 spring 2018, 2019, 2020, 2021, 2022, 2023
+
+                "cron(58 9 1-27 10 ? 2017)",  // +2 first part of October 2017
+                "cron(58 10 28-31 10 ? 2017)", // +1 second part of October 2017
+
+                "cron(58 10 1-24 3 ? 2018)",   // +1 first part of March 2018
+                "cron(58 9 25-31 3 ? 2018)",  // +2 second part of March 2018
+                "cron(58 9 1-27 10 ? 2018)",  // +2 first part of October 2018
+                "cron(58 10 28-31 10 ? 2018)", // +1 second part of October 2018
+
+                "cron(58 10 1-30 3 ? 2019)",   // +1 first part of March 2019
+                "cron(58 9 31 3 ? 2019)",     // +2 second part of March 2019
+                "cron(58 9 1-26 10 ? 2019)",  // +2 first part of October 2019
+                "cron(58 10 27-31 10 ? 2019)", // +1 second part of October 2019
+
+                "cron(58 10 1-28 3 ? 2020)",   // +1 first part of March 2020
+                "cron(58 9 29-31 3 ? 2020)",  // +2 second part of March 2020
+                "cron(58 9 1-24 10 ? 2020)",  // +2 first part of October 2020
+                "cron(58 10 25-31 10 ? 2020)", // +1 second part of October 2020
+
+                "cron(58 10 1-27 3 ? 2021)",   // +1 first part of March 2021
+                "cron(58 9 28-31 3 ? 2021)",  // +2 second part of March 2021
+                "cron(58 9 1-30 10 ? 2021)",  // +2 first part of October 2021
+                "cron(58 10 31 10 ? 2021)",    // +1 second part of October 2021
+
+                "cron(58 10 1-26 3 ? 2022)",   // +1 first part of March 2022
+                "cron(58 9 27-31 3 ? 2022)",  // +2 second part of March 2022
+                "cron(58 9 1-29 10 ? 2022)",  // +2 first part of October 2022
+                "cron(58 10 30-31 10 ? 2022)", // +1 second part of October 2022
+            ]
+        }],
+        "profile_name": "mislavcimpersak",  // AWS profile credentials to use from ~/.aws/credentials. Default 'default'.
+        "remote_env": "s3://realgrickitop/secrets.json", // optional file in s3 bucket containing a flat json object which will be used to set custom environment variables.
+        "exclude": [
+            "[iI][pP]y*",
+            "jupyter*",
+            "notebook*",
+            "[jJ]inja*",
+            "__pycache__",
+            "test*",
+            "_?pytest*",
+            "pytest_cov*",
+            "pytest_sugar*",
+            ".?coverage*",
+            "mock*",
+            "moto*",
+            "responses*",
+            "pep8*",
+            "pylint*",
+            "appnope*",
+            "astroid*",
+            "bleach*",
+            "jedi*",
+            "markupsafe*",
+            "nbconvert*",
+            "nbformat*",
+            "pbr*",
+            "pexpect*",
+            "qtconsole*",
+            "slugify*",
+            "tornado*",
+            "traitlets*"
+        ]
+    }
+}
