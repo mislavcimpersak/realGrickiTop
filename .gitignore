@@ -1,0 +1,24 @@
+*.py[cod]
+*.sqlite3
+*.swp
+*.ipynb
+
+# setuptools
+MANIFEST
+/dist/
+.eggs
+
+*.sublime*
+.idea
+.vscode
+
+*.bat
+
+.cache
+.coverage
+.tox
+*.log
+*.egg-info
+
+realgrickitop-prod-*.zip
+secrets.json
