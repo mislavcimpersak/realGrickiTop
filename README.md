@@ -9,3 +9,9 @@ Created for [Python Hrvatska meetup](https://www.meetup.com/Python-Hrvatska/even
 Project uses [Zappa](https://github.com/Miserlou/Zappa/) and makes use of it's nifty feature of storing credentials in an S3 bucket.
 
 So if you are planning to run your own create `secrets.json` locally based on [secrets_example.json](secrets_example.json) and upload it to your bucket.
+
+## Want to add a tweet?
+
+Sure, why not 😁
+
+Open an issue or a merge request here on github or contact me directly via Twitter or mail.
