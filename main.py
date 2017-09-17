@@ -48,7 +48,7 @@ class Poster(object):
         :param number_of_tweets: how many tweets will be fetched
         :type number_of_tweets: int
         """
-        tweets = self.api.home_timeline(count=number_of_tweets)
+        tweets = self.api.user_timeline(count=number_of_tweets)
 
         self.last_n_tweets = [
             re.sub(r'{}.?'.format(EMOJI_OF_THE_DAY_TEXT), '', tweet.text).strip()
