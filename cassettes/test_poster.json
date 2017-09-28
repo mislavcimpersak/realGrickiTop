@@ -1,0 +1,288 @@
+{
+    "version": 1,
+    "interactions": [
+        {
+            "request": {
+                "method": "GET",
+                "uri": "https://api.twitter.com/1.1/statuses/user_timeline.json?count=10",
+                "body": null,
+                "headers": {
+                    "Host": [
+                        "api.twitter.com"
+                    ]
+                }
+            },
+            "response": {
+                "status": {
+                    "code": 200,
+                    "message": "OK"
+                },
+                "headers": {
+                    "pragma": [
+                        "no-cache"
+                    ],
+                    "x-rate-limit-limit": [
+                        "900"
+                    ],
+                    "content-length": [
+                        "25398"
+                    ],
+                    "last-modified": [
+                        "Sun, 17 Sep 2017 21:50:37 GMT"
+                    ],
+                    "x-connection-hash": [
+                        "690a5f0203430421d08c28b2355c9c10"
+                    ],
+                    "content-type": [
+                        "application/json;charset=utf-8"
+                    ],
+                    "x-xss-protection": [
+                        "1; mode=block"
+                    ],
+                    "x-content-type-options": [
+                        "nosniff"
+                    ],
+                    "date": [
+                        "Sun, 17 Sep 2017 21:50:38 GMT"
+                    ],
+                    "x-rate-limit-remaining": [
+                        "893"
+                    ],
+                    "server": [
+                        "tsa_o"
+                    ],
+                    "x-frame-options": [
+                        "SAMEORIGIN"
+                    ],
+                    "content-disposition": [
+                        "attachment; filename=json.json"
+                    ],
+                    "x-transaction": [
+                        "000ba0e100c08efd"
+                    ],
+                    "strict-transport-security": [
+                        "max-age=631138519"
+                    ],
+                    "status": [
+                        "200 OK"
+                    ],
+                    "x-response-time": [
+                        "156"
+                    ],
+                    "x-twitter-response-tags": [
+                        "BouncerCompliant"
+                    ],
+                    "cache-control": [
+                        "no-cache, no-store, must-revalidate, pre-check=0, post-check=0"
+                    ],
+                    "expires": [
+                        "Tue, 31 Mar 1981 05:00:00 GMT"
+                    ],
+                    "set-cookie": [
+                        "personalization_id=\"v1_xWxXddBvFkgW0S6VYJtZcg==\"; Expires=Tue, 17 Sep 2019 21:50:37 UTC; Path=/; Domain=.twitter.com",
+                        "lang=en; Path=/",
+                        "guest_id=v1%3A150568503792172721; Expires=Tue, 17 Sep 2019 21:50:37 UTC; Path=/; Domain=.twitter.com"
+                    ],
+                    "x-rate-limit-reset": [
+                        "1505685120"
+                    ],
+                    "x-access-level": [
+                        "read-write"
+                    ]
+                },
+                "body": {
+                    "string": "[{\"created_at\":\"Sun Sep 17 09:58:25 +0000 2017\",\"id\":909355856252346368,\"id_str\":\"909355856252346368\",\"text\":\"\\ud83d\\ude31 \\u0160it, skoro sam zaboravio! BOOM!\\n\\nEmoji dana:\\ud83e\\udd1d\",\"truncated\":false,\"entities\":{\"hashtags\":[],\"symbols\":[],\"user_mentions\":[],\"urls\":[]},\"source\":\"\\u003ca href=\\\"https:\\/\\/github.com\\/mislavcimpersak\\/\\\" rel=\\\"nofollow\\\"\\u003erealGri\\u010dkiTop\\u003c\\/a\\u003e\",\"in_reply_to_status_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"user\":{\"id\":905432328293548032,\"id_str\":\"905432328293548032\",\"name\":\"Real Gri\\u010dki Top\",\"screen_name\":\"realGrickiTop\",\"location\":\"Republic of Croatia\",\"description\":\"Pravo lice Gri\\u010dkog topa\",\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"entities\":{\"url\":{\"urls\":[{\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"expanded_url\":\"https:\\/\\/github.com\\/mislavcimpersak\\/realGrickiTop\",\"display_url\":\"github.com\\/mislavcimpersa\\u2026\",\"indices\":[0,23]}]},\"description\":{\"urls\":[]}},\"protected\":false,\"followers_count\":1,\"friends_count\":0,\"listed_count\":0,\"created_at\":\"Wed Sep 06 14:07:43 +0000 2017\",\"favourites_count\":0,\"utc_offset\":7200,\"time_zone\":\"Zagreb\",\"geo_enabled\":true,\"verified\":false,\"statuses_count\":9,\"lang\":\"en\",\"contributors_enabled\":false,\"is_translator\":false,\"is_translation_enabled\":false,\"profile_background_color\":\"F5F8FA\",\"profile_background_image_url\":null,\"profile_background_image_url_https\":null,\"profile_background_tile\":false,\"profile_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_banner_url\":\"https:\\/\\/pbs.twimg.com\\/profile_banners\\/905432328293548032\\/1504707240\",\"profile_link_color\":\"1DA1F2\",\"profile_sidebar_border_color\":\"C0DEED\",\"profile_sidebar_fill_color\":\"DDEEF6\",\"profile_text_color\":\"333333\",\"profile_use_background_image\":true,\"has_extended_profile\":false,\"default_profile\":true,\"default_profile_image\":false,\"following\":false,\"follow_request_sent\":false,\"notifications\":false,\"translator_type\":\"none\"},\"geo\":{\"type\":\"Point\",\"coordinates\":[45.814632,15.973277]},\"coordinates\":{\"type\":\"Point\",\"coordinates\":[15.973277,45.814632]},\"place\":{\"id\":\"8d65596349ee2e01\",\"url\":\"https:\\/\\/api.twitter.com\\/1.1\\/geo\\/id\\/8d65596349ee2e01.json\",\"place_type\":\"country\",\"name\":\"Republic of Croatia\",\"full_name\":\"Republic of Croatia\",\"country_code\":\"HR\",\"country\":\"Republic of Croatia\",\"contained_within\":[],\"bounding_box\":{\"type\":\"Polygon\",\"coordinates\":[[[13.4897243,42.3776665],[19.4480171,42.3776665],[19.4480171,46.5549896],[13.4897243,46.5549896]]]},\"attributes\":{}},\"contributors\":null,\"is_quote_status\":false,\"retweet_count\":0,\"favorite_count\":0,\"favorited\":false,\"retweeted\":false,\"lang\":\"und\"},{\"created_at\":\"Sat Sep 16 09:58:26 +0000 2017\",\"id\":908993470710321153,\"id_str\":\"908993470710321153\",\"text\":\"BOOM!\\n\\nEmoji dana:\\ud83c\\udd98\",\"truncated\":false,\"entities\":{\"hashtags\":[],\"symbols\":[],\"user_mentions\":[],\"urls\":[]},\"source\":\"\\u003ca href=\\\"https:\\/\\/github.com\\/mislavcimpersak\\/\\\" rel=\\\"nofollow\\\"\\u003erealGri\\u010dkiTop\\u003c\\/a\\u003e\",\"in_reply_to_status_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"user\":{\"id\":905432328293548032,\"id_str\":\"905432328293548032\",\"name\":\"Real Gri\\u010dki Top\",\"screen_name\":\"realGrickiTop\",\"location\":\"Republic of Croatia\",\"description\":\"Pravo lice Gri\\u010dkog topa\",\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"entities\":{\"url\":{\"urls\":[{\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"expanded_url\":\"https:\\/\\/github.com\\/mislavcimpersak\\/realGrickiTop\",\"display_url\":\"github.com\\/mislavcimpersa\\u2026\",\"indices\":[0,23]}]},\"description\":{\"urls\":[]}},\"protected\":false,\"followers_count\":1,\"friends_count\":0,\"listed_count\":0,\"created_at\":\"Wed Sep 06 14:07:43 +0000 2017\",\"favourites_count\":0,\"utc_offset\":7200,\"time_zone\":\"Zagreb\",\"geo_enabled\":true,\"verified\":false,\"statuses_count\":9,\"lang\":\"en\",\"contributors_enabled\":false,\"is_translator\":false,\"is_translation_enabled\":false,\"profile_background_color\":\"F5F8FA\",\"profile_background_image_url\":null,\"profile_background_image_url_https\":null,\"profile_background_tile\":false,\"profile_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_banner_url\":\"https:\\/\\/pbs.twimg.com\\/profile_banners\\/905432328293548032\\/1504707240\",\"profile_link_color\":\"1DA1F2\",\"profile_sidebar_border_color\":\"C0DEED\",\"profile_sidebar_fill_color\":\"DDEEF6\",\"profile_text_color\":\"333333\",\"profile_use_background_image\":true,\"has_extended_profile\":false,\"default_profile\":true,\"default_profile_image\":false,\"following\":false,\"follow_request_sent\":false,\"notifications\":false,\"translator_type\":\"none\"},\"geo\":{\"type\":\"Point\",\"coordinates\":[45.814632,15.973277]},\"coordinates\":{\"type\":\"Point\",\"coordinates\":[15.973277,45.814632]},\"place\":{\"id\":\"8d65596349ee2e01\",\"url\":\"https:\\/\\/api.twitter.com\\/1.1\\/geo\\/id\\/8d65596349ee2e01.json\",\"place_type\":\"country\",\"name\":\"Republic of Croatia\",\"full_name\":\"Republic of Croatia\",\"country_code\":\"HR\",\"country\":\"Republic of Croatia\",\"contained_within\":[],\"bounding_box\":{\"type\":\"Polygon\",\"coordinates\":[[[13.4897243,42.3776665],[19.4480171,42.3776665],[19.4480171,46.5549896],[13.4897243,46.5549896]]]},\"attributes\":{}},\"contributors\":null,\"is_quote_status\":false,\"retweet_count\":0,\"favorite_count\":0,\"favorited\":false,\"retweeted\":false,\"lang\":\"in\"},{\"created_at\":\"Fri Sep 15 09:58:26 +0000 2017\",\"id\":908631083633213441,\"id_str\":\"908631083633213441\",\"text\":\"I jo\\u0161 jednom. BOOM!\\n\\nEmoji dana:\\ud83d\\udc85\",\"truncated\":false,\"entities\":{\"hashtags\":[],\"symbols\":[],\"user_mentions\":[],\"urls\":[]},\"source\":\"\\u003ca href=\\\"https:\\/\\/github.com\\/mislavcimpersak\\/\\\" rel=\\\"nofollow\\\"\\u003erealGri\\u010dkiTop\\u003c\\/a\\u003e\",\"in_reply_to_status_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"user\":{\"id\":905432328293548032,\"id_str\":\"905432328293548032\",\"name\":\"Real Gri\\u010dki Top\",\"screen_name\":\"realGrickiTop\",\"location\":\"Republic of Croatia\",\"description\":\"Pravo lice Gri\\u010dkog topa\",\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"entities\":{\"url\":{\"urls\":[{\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"expanded_url\":\"https:\\/\\/github.com\\/mislavcimpersak\\/realGrickiTop\",\"display_url\":\"github.com\\/mislavcimpersa\\u2026\",\"indices\":[0,23]}]},\"description\":{\"urls\":[]}},\"protected\":false,\"followers_count\":1,\"friends_count\":0,\"listed_count\":0,\"created_at\":\"Wed Sep 06 14:07:43 +0000 2017\",\"favourites_count\":0,\"utc_offset\":7200,\"time_zone\":\"Zagreb\",\"geo_enabled\":true,\"verified\":false,\"statuses_count\":9,\"lang\":\"en\",\"contributors_enabled\":false,\"is_translator\":false,\"is_translation_enabled\":false,\"profile_background_color\":\"F5F8FA\",\"profile_background_image_url\":null,\"profile_background_image_url_https\":null,\"profile_background_tile\":false,\"profile_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_banner_url\":\"https:\\/\\/pbs.twimg.com\\/profile_banners\\/905432328293548032\\/1504707240\",\"profile_link_color\":\"1DA1F2\",\"profile_sidebar_border_color\":\"C0DEED\",\"profile_sidebar_fill_color\":\"DDEEF6\",\"profile_text_color\":\"333333\",\"profile_use_background_image\":true,\"has_extended_profile\":false,\"default_profile\":true,\"default_profile_image\":false,\"following\":false,\"follow_request_sent\":false,\"notifications\":false,\"translator_type\":\"none\"},\"geo\":{\"type\":\"Point\",\"coordinates\":[45.814632,15.973277]},\"coordinates\":{\"type\":\"Point\",\"coordinates\":[15.973277,45.814632]},\"place\":{\"id\":\"8d65596349ee2e01\",\"url\":\"https:\\/\\/api.twitter.com\\/1.1\\/geo\\/id\\/8d65596349ee2e01.json\",\"place_type\":\"country\",\"name\":\"Republic of Croatia\",\"full_name\":\"Republic of Croatia\",\"country_code\":\"HR\",\"country\":\"Republic of Croatia\",\"contained_within\":[],\"bounding_box\":{\"type\":\"Polygon\",\"coordinates\":[[[13.4897243,42.3776665],[19.4480171,42.3776665],[19.4480171,46.5549896],[13.4897243,46.5549896]]]},\"attributes\":{}},\"contributors\":null,\"is_quote_status\":false,\"retweet_count\":0,\"favorite_count\":0,\"favorited\":false,\"retweeted\":false,\"lang\":\"und\"},{\"created_at\":\"Thu Sep 14 09:58:26 +0000 2017\",\"id\":908268696002596864,\"id_str\":\"908268696002596864\",\"text\":\"\\ud83c\\udfb2 je ba\\u010dena. BOOM!\\n\\nEmoji dana:\\ud83d\\udc09\",\"truncated\":false,\"entities\":{\"hashtags\":[],\"symbols\":[],\"user_mentions\":[],\"urls\":[]},\"source\":\"\\u003ca href=\\\"https:\\/\\/github.com\\/mislavcimpersak\\/\\\" rel=\\\"nofollow\\\"\\u003erealGri\\u010dkiTop\\u003c\\/a\\u003e\",\"in_reply_to_status_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"user\":{\"id\":905432328293548032,\"id_str\":\"905432328293548032\",\"name\":\"Real Gri\\u010dki Top\",\"screen_name\":\"realGrickiTop\",\"location\":\"Republic of Croatia\",\"description\":\"Pravo lice Gri\\u010dkog topa\",\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"entities\":{\"url\":{\"urls\":[{\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"expanded_url\":\"https:\\/\\/github.com\\/mislavcimpersak\\/realGrickiTop\",\"display_url\":\"github.com\\/mislavcimpersa\\u2026\",\"indices\":[0,23]}]},\"description\":{\"urls\":[]}},\"protected\":false,\"followers_count\":1,\"friends_count\":0,\"listed_count\":0,\"created_at\":\"Wed Sep 06 14:07:43 +0000 2017\",\"favourites_count\":0,\"utc_offset\":7200,\"time_zone\":\"Zagreb\",\"geo_enabled\":true,\"verified\":false,\"statuses_count\":9,\"lang\":\"en\",\"contributors_enabled\":false,\"is_translator\":false,\"is_translation_enabled\":false,\"profile_background_color\":\"F5F8FA\",\"profile_background_image_url\":null,\"profile_background_image_url_https\":null,\"profile_background_tile\":false,\"profile_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_banner_url\":\"https:\\/\\/pbs.twimg.com\\/profile_banners\\/905432328293548032\\/1504707240\",\"profile_link_color\":\"1DA1F2\",\"profile_sidebar_border_color\":\"C0DEED\",\"profile_sidebar_fill_color\":\"DDEEF6\",\"profile_text_color\":\"333333\",\"profile_use_background_image\":true,\"has_extended_profile\":false,\"default_profile\":true,\"default_profile_image\":false,\"following\":false,\"follow_request_sent\":false,\"notifications\":false,\"translator_type\":\"none\"},\"geo\":{\"type\":\"Point\",\"coordinates\":[45.814632,15.973277]},\"coordinates\":{\"type\":\"Point\",\"coordinates\":[15.973277,45.814632]},\"place\":{\"id\":\"8d65596349ee2e01\",\"url\":\"https:\\/\\/api.twitter.com\\/1.1\\/geo\\/id\\/8d65596349ee2e01.json\",\"place_type\":\"country\",\"name\":\"Republic of Croatia\",\"full_name\":\"Republic of Croatia\",\"country_code\":\"HR\",\"country\":\"Republic of Croatia\",\"contained_within\":[],\"bounding_box\":{\"type\":\"Polygon\",\"coordinates\":[[[13.4897243,42.3776665],[19.4480171,42.3776665],[19.4480171,46.5549896],[13.4897243,46.5549896]]]},\"attributes\":{}},\"contributors\":null,\"is_quote_status\":false,\"retweet_count\":1,\"favorite_count\":0,\"favorited\":false,\"retweeted\":false,\"lang\":\"und\"},{\"created_at\":\"Wed Sep 13 09:58:25 +0000 2017\",\"id\":907906304789884929,\"id_str\":\"907906304789884929\",\"text\":\"Ajd... BOOM! Recimo da je dovoljno blizu \\ud83d\\udd5b\\n\\nEmoji dana:\\ud83c\\udf91\",\"truncated\":false,\"entities\":{\"hashtags\":[],\"symbols\":[],\"user_mentions\":[],\"urls\":[]},\"source\":\"\\u003ca href=\\\"https:\\/\\/github.com\\/mislavcimpersak\\/\\\" rel=\\\"nofollow\\\"\\u003erealGri\\u010dkiTop\\u003c\\/a\\u003e\",\"in_reply_to_status_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"user\":{\"id\":905432328293548032,\"id_str\":\"905432328293548032\",\"name\":\"Real Gri\\u010dki Top\",\"screen_name\":\"realGrickiTop\",\"location\":\"Republic of Croatia\",\"description\":\"Pravo lice Gri\\u010dkog topa\",\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"entities\":{\"url\":{\"urls\":[{\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"expanded_url\":\"https:\\/\\/github.com\\/mislavcimpersak\\/realGrickiTop\",\"display_url\":\"github.com\\/mislavcimpersa\\u2026\",\"indices\":[0,23]}]},\"description\":{\"urls\":[]}},\"protected\":false,\"followers_count\":1,\"friends_count\":0,\"listed_count\":0,\"created_at\":\"Wed Sep 06 14:07:43 +0000 2017\",\"favourites_count\":0,\"utc_offset\":7200,\"time_zone\":\"Zagreb\",\"geo_enabled\":true,\"verified\":false,\"statuses_count\":9,\"lang\":\"en\",\"contributors_enabled\":false,\"is_translator\":false,\"is_translation_enabled\":false,\"profile_background_color\":\"F5F8FA\",\"profile_background_image_url\":null,\"profile_background_image_url_https\":null,\"profile_background_tile\":false,\"profile_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_banner_url\":\"https:\\/\\/pbs.twimg.com\\/profile_banners\\/905432328293548032\\/1504707240\",\"profile_link_color\":\"1DA1F2\",\"profile_sidebar_border_color\":\"C0DEED\",\"profile_sidebar_fill_color\":\"DDEEF6\",\"profile_text_color\":\"333333\",\"profile_use_background_image\":true,\"has_extended_profile\":false,\"default_profile\":true,\"default_profile_image\":false,\"following\":false,\"follow_request_sent\":false,\"notifications\":false,\"translator_type\":\"none\"},\"geo\":{\"type\":\"Point\",\"coordinates\":[45.814632,15.973277]},\"coordinates\":{\"type\":\"Point\",\"coordinates\":[15.973277,45.814632]},\"place\":{\"id\":\"8d65596349ee2e01\",\"url\":\"https:\\/\\/api.twitter.com\\/1.1\\/geo\\/id\\/8d65596349ee2e01.json\",\"place_type\":\"country\",\"name\":\"Republic of Croatia\",\"full_name\":\"Republic of Croatia\",\"country_code\":\"HR\",\"country\":\"Republic of Croatia\",\"contained_within\":[],\"bounding_box\":{\"type\":\"Polygon\",\"coordinates\":[[[13.4897243,42.3776665],[19.4480171,42.3776665],[19.4480171,46.5549896],[13.4897243,46.5549896]]]},\"attributes\":{}},\"contributors\":null,\"is_quote_status\":false,\"retweet_count\":1,\"favorite_count\":0,\"favorited\":false,\"retweeted\":false,\"lang\":\"und\"},{\"created_at\":\"Tue Sep 12 09:58:23 +0000 2017\",\"id\":907543908938387456,\"id_str\":\"907543908938387456\",\"text\":\"And BOOM \\ud83d\\udca3\\ud83d\\udca5 goes the dynamite!\\n\\nEmoji dana:\\ud83d\\udd29\",\"truncated\":false,\"entities\":{\"hashtags\":[],\"symbols\":[],\"user_mentions\":[],\"urls\":[]},\"source\":\"\\u003ca href=\\\"https:\\/\\/github.com\\/mislavcimpersak\\/\\\" rel=\\\"nofollow\\\"\\u003erealGri\\u010dkiTop\\u003c\\/a\\u003e\",\"in_reply_to_status_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"user\":{\"id\":905432328293548032,\"id_str\":\"905432328293548032\",\"name\":\"Real Gri\\u010dki Top\",\"screen_name\":\"realGrickiTop\",\"location\":\"Republic of Croatia\",\"description\":\"Pravo lice Gri\\u010dkog topa\",\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"entities\":{\"url\":{\"urls\":[{\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"expanded_url\":\"https:\\/\\/github.com\\/mislavcimpersak\\/realGrickiTop\",\"display_url\":\"github.com\\/mislavcimpersa\\u2026\",\"indices\":[0,23]}]},\"description\":{\"urls\":[]}},\"protected\":false,\"followers_count\":1,\"friends_count\":0,\"listed_count\":0,\"created_at\":\"Wed Sep 06 14:07:43 +0000 2017\",\"favourites_count\":0,\"utc_offset\":7200,\"time_zone\":\"Zagreb\",\"geo_enabled\":true,\"verified\":false,\"statuses_count\":9,\"lang\":\"en\",\"contributors_enabled\":false,\"is_translator\":false,\"is_translation_enabled\":false,\"profile_background_color\":\"F5F8FA\",\"profile_background_image_url\":null,\"profile_background_image_url_https\":null,\"profile_background_tile\":false,\"profile_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_banner_url\":\"https:\\/\\/pbs.twimg.com\\/profile_banners\\/905432328293548032\\/1504707240\",\"profile_link_color\":\"1DA1F2\",\"profile_sidebar_border_color\":\"C0DEED\",\"profile_sidebar_fill_color\":\"DDEEF6\",\"profile_text_color\":\"333333\",\"profile_use_background_image\":true,\"has_extended_profile\":false,\"default_profile\":true,\"default_profile_image\":false,\"following\":false,\"follow_request_sent\":false,\"notifications\":false,\"translator_type\":\"none\"},\"geo\":{\"type\":\"Point\",\"coordinates\":[45.814632,15.973277]},\"coordinates\":{\"type\":\"Point\",\"coordinates\":[15.973277,45.814632]},\"place\":{\"id\":\"8d65596349ee2e01\",\"url\":\"https:\\/\\/api.twitter.com\\/1.1\\/geo\\/id\\/8d65596349ee2e01.json\",\"place_type\":\"country\",\"name\":\"Republic of Croatia\",\"full_name\":\"Republic of Croatia\",\"country_code\":\"HR\",\"country\":\"Republic of Croatia\",\"contained_within\":[],\"bounding_box\":{\"type\":\"Polygon\",\"coordinates\":[[[13.4897243,42.3776665],[19.4480171,42.3776665],[19.4480171,46.5549896],[13.4897243,46.5549896]]]},\"attributes\":{}},\"contributors\":null,\"is_quote_status\":false,\"retweet_count\":0,\"favorite_count\":0,\"favorited\":false,\"retweeted\":false,\"lang\":\"en\"},{\"created_at\":\"Mon Sep 11 09:58:25 +0000 2017\",\"id\":907181527561379840,\"id_str\":\"907181527561379840\",\"text\":\"E majkemi, sutra \\u0107u si naviti budilicu \\u23f0\\n\\nEmoji dana:\\ud83d\\udea2\",\"truncated\":false,\"entities\":{\"hashtags\":[],\"symbols\":[],\"user_mentions\":[],\"urls\":[]},\"source\":\"\\u003ca href=\\\"https:\\/\\/github.com\\/mislavcimpersak\\/\\\" rel=\\\"nofollow\\\"\\u003erealGri\\u010dkiTop\\u003c\\/a\\u003e\",\"in_reply_to_status_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"user\":{\"id\":905432328293548032,\"id_str\":\"905432328293548032\",\"name\":\"Real Gri\\u010dki Top\",\"screen_name\":\"realGrickiTop\",\"location\":\"Republic of Croatia\",\"description\":\"Pravo lice Gri\\u010dkog topa\",\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"entities\":{\"url\":{\"urls\":[{\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"expanded_url\":\"https:\\/\\/github.com\\/mislavcimpersak\\/realGrickiTop\",\"display_url\":\"github.com\\/mislavcimpersa\\u2026\",\"indices\":[0,23]}]},\"description\":{\"urls\":[]}},\"protected\":false,\"followers_count\":1,\"friends_count\":0,\"listed_count\":0,\"created_at\":\"Wed Sep 06 14:07:43 +0000 2017\",\"favourites_count\":0,\"utc_offset\":7200,\"time_zone\":\"Zagreb\",\"geo_enabled\":true,\"verified\":false,\"statuses_count\":9,\"lang\":\"en\",\"contributors_enabled\":false,\"is_translator\":false,\"is_translation_enabled\":false,\"profile_background_color\":\"F5F8FA\",\"profile_background_image_url\":null,\"profile_background_image_url_https\":null,\"profile_background_tile\":false,\"profile_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_banner_url\":\"https:\\/\\/pbs.twimg.com\\/profile_banners\\/905432328293548032\\/1504707240\",\"profile_link_color\":\"1DA1F2\",\"profile_sidebar_border_color\":\"C0DEED\",\"profile_sidebar_fill_color\":\"DDEEF6\",\"profile_text_color\":\"333333\",\"profile_use_background_image\":true,\"has_extended_profile\":false,\"default_profile\":true,\"default_profile_image\":false,\"following\":false,\"follow_request_sent\":false,\"notifications\":false,\"translator_type\":\"none\"},\"geo\":{\"type\":\"Point\",\"coordinates\":[45.814632,15.973277]},\"coordinates\":{\"type\":\"Point\",\"coordinates\":[15.973277,45.814632]},\"place\":{\"id\":\"8d65596349ee2e01\",\"url\":\"https:\\/\\/api.twitter.com\\/1.1\\/geo\\/id\\/8d65596349ee2e01.json\",\"place_type\":\"country\",\"name\":\"Republic of Croatia\",\"full_name\":\"Republic of Croatia\",\"country_code\":\"HR\",\"country\":\"Republic of Croatia\",\"contained_within\":[],\"bounding_box\":{\"type\":\"Polygon\",\"coordinates\":[[[13.4897243,42.3776665],[19.4480171,42.3776665],[19.4480171,46.5549896],[13.4897243,46.5549896]]]},\"attributes\":{}},\"contributors\":null,\"is_quote_status\":false,\"retweet_count\":0,\"favorite_count\":0,\"favorited\":false,\"retweeted\":false,\"lang\":\"und\"},{\"created_at\":\"Sun Sep 10 09:58:26 +0000 2017\",\"id\":906819142313021441,\"id_str\":\"906819142313021441\",\"text\":\"BOOM! Podne je pro\\u0161lo \\ud83c\\udf7a\\ud83c\\udf7a\\ud83c\\udf7a\\n\\nEmoji dana:\\ud83d\\udc72\",\"truncated\":false,\"entities\":{\"hashtags\":[],\"symbols\":[],\"user_mentions\":[],\"urls\":[]},\"source\":\"\\u003ca href=\\\"https:\\/\\/github.com\\/mislavcimpersak\\/\\\" rel=\\\"nofollow\\\"\\u003erealGri\\u010dkiTop\\u003c\\/a\\u003e\",\"in_reply_to_status_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"user\":{\"id\":905432328293548032,\"id_str\":\"905432328293548032\",\"name\":\"Real Gri\\u010dki Top\",\"screen_name\":\"realGrickiTop\",\"location\":\"Republic of Croatia\",\"description\":\"Pravo lice Gri\\u010dkog topa\",\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"entities\":{\"url\":{\"urls\":[{\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"expanded_url\":\"https:\\/\\/github.com\\/mislavcimpersak\\/realGrickiTop\",\"display_url\":\"github.com\\/mislavcimpersa\\u2026\",\"indices\":[0,23]}]},\"description\":{\"urls\":[]}},\"protected\":false,\"followers_count\":1,\"friends_count\":0,\"listed_count\":0,\"created_at\":\"Wed Sep 06 14:07:43 +0000 2017\",\"favourites_count\":0,\"utc_offset\":7200,\"time_zone\":\"Zagreb\",\"geo_enabled\":true,\"verified\":false,\"statuses_count\":9,\"lang\":\"en\",\"contributors_enabled\":false,\"is_translator\":false,\"is_translation_enabled\":false,\"profile_background_color\":\"F5F8FA\",\"profile_background_image_url\":null,\"profile_background_image_url_https\":null,\"profile_background_tile\":false,\"profile_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_banner_url\":\"https:\\/\\/pbs.twimg.com\\/profile_banners\\/905432328293548032\\/1504707240\",\"profile_link_color\":\"1DA1F2\",\"profile_sidebar_border_color\":\"C0DEED\",\"profile_sidebar_fill_color\":\"DDEEF6\",\"profile_text_color\":\"333333\",\"profile_use_background_image\":true,\"has_extended_profile\":false,\"default_profile\":true,\"default_profile_image\":false,\"following\":false,\"follow_request_sent\":false,\"notifications\":false,\"translator_type\":\"none\"},\"geo\":{\"type\":\"Point\",\"coordinates\":[45.814632,15.973277]},\"coordinates\":{\"type\":\"Point\",\"coordinates\":[15.973277,45.814632]},\"place\":{\"id\":\"8d65596349ee2e01\",\"url\":\"https:\\/\\/api.twitter.com\\/1.1\\/geo\\/id\\/8d65596349ee2e01.json\",\"place_type\":\"country\",\"name\":\"Republic of Croatia\",\"full_name\":\"Republic of Croatia\",\"country_code\":\"HR\",\"country\":\"Republic of Croatia\",\"contained_within\":[],\"bounding_box\":{\"type\":\"Polygon\",\"coordinates\":[[[13.4897243,42.3776665],[19.4480171,42.3776665],[19.4480171,46.5549896],[13.4897243,46.5549896]]]},\"attributes\":{}},\"contributors\":null,\"is_quote_status\":false,\"retweet_count\":0,\"favorite_count\":0,\"favorited\":false,\"retweeted\":false,\"lang\":\"und\"},{\"created_at\":\"Sat Sep 09 09:48:13 +0000 2017\",\"id\":906454183112593408,\"id_str\":\"906454183112593408\",\"text\":\"Svaki dan isto sranje \\ud83d\\ude11 BOOM!\\n\\nEmoji dana:\\ud83d\\udcca\",\"truncated\":false,\"entities\":{\"hashtags\":[],\"symbols\":[],\"user_mentions\":[],\"urls\":[]},\"source\":\"\\u003ca href=\\\"https:\\/\\/github.com\\/mislavcimpersak\\/\\\" rel=\\\"nofollow\\\"\\u003erealGri\\u010dkiTop\\u003c\\/a\\u003e\",\"in_reply_to_status_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"user\":{\"id\":905432328293548032,\"id_str\":\"905432328293548032\",\"name\":\"Real Gri\\u010dki Top\",\"screen_name\":\"realGrickiTop\",\"location\":\"Republic of Croatia\",\"description\":\"Pravo lice Gri\\u010dkog topa\",\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"entities\":{\"url\":{\"urls\":[{\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"expanded_url\":\"https:\\/\\/github.com\\/mislavcimpersak\\/realGrickiTop\",\"display_url\":\"github.com\\/mislavcimpersa\\u2026\",\"indices\":[0,23]}]},\"description\":{\"urls\":[]}},\"protected\":false,\"followers_count\":1,\"friends_count\":0,\"listed_count\":0,\"created_at\":\"Wed Sep 06 14:07:43 +0000 2017\",\"favourites_count\":0,\"utc_offset\":7200,\"time_zone\":\"Zagreb\",\"geo_enabled\":true,\"verified\":false,\"statuses_count\":9,\"lang\":\"en\",\"contributors_enabled\":false,\"is_translator\":false,\"is_translation_enabled\":false,\"profile_background_color\":\"F5F8FA\",\"profile_background_image_url\":null,\"profile_background_image_url_https\":null,\"profile_background_tile\":false,\"profile_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_banner_url\":\"https:\\/\\/pbs.twimg.com\\/profile_banners\\/905432328293548032\\/1504707240\",\"profile_link_color\":\"1DA1F2\",\"profile_sidebar_border_color\":\"C0DEED\",\"profile_sidebar_fill_color\":\"DDEEF6\",\"profile_text_color\":\"333333\",\"profile_use_background_image\":true,\"has_extended_profile\":false,\"default_profile\":true,\"default_profile_image\":false,\"following\":false,\"follow_request_sent\":false,\"notifications\":false,\"translator_type\":\"none\"},\"geo\":{\"type\":\"Point\",\"coordinates\":[45.814632,15.973277]},\"coordinates\":{\"type\":\"Point\",\"coordinates\":[15.973277,45.814632]},\"place\":{\"id\":\"8d65596349ee2e01\",\"url\":\"https:\\/\\/api.twitter.com\\/1.1\\/geo\\/id\\/8d65596349ee2e01.json\",\"place_type\":\"country\",\"name\":\"Republic of Croatia\",\"full_name\":\"Republic of Croatia\",\"country_code\":\"HR\",\"country\":\"Republic of Croatia\",\"contained_within\":[],\"bounding_box\":{\"type\":\"Polygon\",\"coordinates\":[[[13.4897243,42.3776665],[19.4480171,42.3776665],[19.4480171,46.5549896],[13.4897243,46.5549896]]]},\"attributes\":{}},\"contributors\":null,\"is_quote_status\":false,\"retweet_count\":0,\"favorite_count\":0,\"favorited\":false,\"retweeted\":false,\"lang\":\"und\"}]"
+                }
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "uri": "https://api.twitter.com/1.1/account/verify_credentials.json",
+                "body": null,
+                "headers": {
+                    "Host": [
+                        "api.twitter.com"
+                    ]
+                }
+            },
+            "response": {
+                "status": {
+                    "code": 200,
+                    "message": "OK"
+                },
+                "headers": {
+                    "pragma": [
+                        "no-cache"
+                    ],
+                    "x-rate-limit-limit": [
+                        "75"
+                    ],
+                    "content-length": [
+                        "2831"
+                    ],
+                    "last-modified": [
+                        "Sun, 17 Sep 2017 21:50:38 GMT"
+                    ],
+                    "x-connection-hash": [
+                        "801a08d37e9903854160c3cd370254a7"
+                    ],
+                    "content-type": [
+                        "application/json;charset=utf-8"
+                    ],
+                    "x-xss-protection": [
+                        "1; mode=block"
+                    ],
+                    "x-content-type-options": [
+                        "nosniff"
+                    ],
+                    "date": [
+                        "Sun, 17 Sep 2017 21:50:38 GMT"
+                    ],
+                    "x-rate-limit-remaining": [
+                        "72"
+                    ],
+                    "server": [
+                        "tsa_o"
+                    ],
+                    "x-frame-options": [
+                        "SAMEORIGIN"
+                    ],
+                    "content-disposition": [
+                        "attachment; filename=json.json"
+                    ],
+                    "x-transaction": [
+                        "00d101180025858a"
+                    ],
+                    "strict-transport-security": [
+                        "max-age=631138519"
+                    ],
+                    "status": [
+                        "200 OK"
+                    ],
+                    "x-response-time": [
+                        "145"
+                    ],
+                    "x-twitter-response-tags": [
+                        "BouncerExempt",
+                        "BouncerCompliant"
+                    ],
+                    "cache-control": [
+                        "no-cache, no-store, must-revalidate, pre-check=0, post-check=0"
+                    ],
+                    "expires": [
+                        "Tue, 31 Mar 1981 05:00:00 GMT"
+                    ],
+                    "set-cookie": [
+                        "personalization_id=\"v1_Is39ne+iUOM2xMD8CP7Qyw==\"; Expires=Tue, 17 Sep 2019 21:50:38 UTC; Path=/; Domain=.twitter.com",
+                        "lang=en; Path=/",
+                        "guest_id=v1%3A150568503827091091; Expires=Tue, 17 Sep 2019 21:50:38 UTC; Path=/; Domain=.twitter.com"
+                    ],
+                    "x-rate-limit-reset": [
+                        "1505685394"
+                    ],
+                    "x-access-level": [
+                        "read-write"
+                    ]
+                },
+                "body": {
+                    "string": "{\"id\":905432328293548032,\"id_str\":\"905432328293548032\",\"name\":\"Real Gri\\u010dki Top\",\"screen_name\":\"realGrickiTop\",\"location\":\"Republic of Croatia\",\"description\":\"Pravo lice Gri\\u010dkog topa\",\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"entities\":{\"url\":{\"urls\":[{\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"expanded_url\":\"https:\\/\\/github.com\\/mislavcimpersak\\/realGrickiTop\",\"display_url\":\"github.com\\/mislavcimpersa\\u2026\",\"indices\":[0,23]}]},\"description\":{\"urls\":[]}},\"protected\":false,\"followers_count\":1,\"friends_count\":0,\"listed_count\":0,\"created_at\":\"Wed Sep 06 14:07:43 +0000 2017\",\"favourites_count\":0,\"utc_offset\":7200,\"time_zone\":\"Zagreb\",\"geo_enabled\":true,\"verified\":false,\"statuses_count\":9,\"lang\":\"en\",\"status\":{\"created_at\":\"Sun Sep 17 09:58:25 +0000 2017\",\"id\":909355856252346368,\"id_str\":\"909355856252346368\",\"text\":\"\\ud83d\\ude31 \\u0160it, skoro sam zaboravio! BOOM!\\n\\nEmoji dana:\\ud83e\\udd1d\",\"truncated\":false,\"entities\":{\"hashtags\":[],\"symbols\":[],\"user_mentions\":[],\"urls\":[]},\"source\":\"\\u003ca href=\\\"https:\\/\\/github.com\\/mislavcimpersak\\/\\\" rel=\\\"nofollow\\\"\\u003erealGri\\u010dkiTop\\u003c\\/a\\u003e\",\"in_reply_to_status_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"geo\":{\"type\":\"Point\",\"coordinates\":[45.814632,15.973277]},\"coordinates\":{\"type\":\"Point\",\"coordinates\":[15.973277,45.814632]},\"place\":{\"id\":\"8d65596349ee2e01\",\"url\":\"https:\\/\\/api.twitter.com\\/1.1\\/geo\\/id\\/8d65596349ee2e01.json\",\"place_type\":\"country\",\"name\":\"Republic of Croatia\",\"full_name\":\"Republic of Croatia\",\"country_code\":\"HR\",\"country\":\"Republic of Croatia\",\"contained_within\":[],\"bounding_box\":{\"type\":\"Polygon\",\"coordinates\":[[[13.4897243,42.3776665],[19.4480171,42.3776665],[19.4480171,46.5549896],[13.4897243,46.5549896]]]},\"attributes\":{}},\"contributors\":null,\"is_quote_status\":false,\"retweet_count\":0,\"favorite_count\":0,\"favorited\":false,\"retweeted\":false,\"lang\":\"und\"},\"contributors_enabled\":false,\"is_translator\":false,\"is_translation_enabled\":false,\"profile_background_color\":\"F5F8FA\",\"profile_background_image_url\":null,\"profile_background_image_url_https\":null,\"profile_background_tile\":false,\"profile_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_banner_url\":\"https:\\/\\/pbs.twimg.com\\/profile_banners\\/905432328293548032\\/1504707240\",\"profile_link_color\":\"1DA1F2\",\"profile_sidebar_border_color\":\"C0DEED\",\"profile_sidebar_fill_color\":\"DDEEF6\",\"profile_text_color\":\"333333\",\"profile_use_background_image\":true,\"has_extended_profile\":false,\"default_profile\":true,\"default_profile_image\":false,\"following\":false,\"follow_request_sent\":false,\"notifications\":false,\"translator_type\":\"none\"}"
+                }
+            }
+        },
+        {
+            "request": {
+                "method": "GET",
+                "uri": "https://api.twitter.com/1.1/users/show.json?screen_name=realGrickiTop",
+                "body": null,
+                "headers": {
+                    "Host": [
+                        "api.twitter.com"
+                    ]
+                }
+            },
+            "response": {
+                "status": {
+                    "code": 200,
+                    "message": "OK"
+                },
+                "headers": {
+                    "pragma": [
+                        "no-cache"
+                    ],
+                    "x-rate-limit-limit": [
+                        "900"
+                    ],
+                    "content-length": [
+                        "3173"
+                    ],
+                    "last-modified": [
+                        "Sun, 17 Sep 2017 21:50:38 GMT"
+                    ],
+                    "x-connection-hash": [
+                        "d299cab73092d400189b2c7a1b8a4e41"
+                    ],
+                    "content-type": [
+                        "application/json;charset=utf-8"
+                    ],
+                    "x-xss-protection": [
+                        "1; mode=block"
+                    ],
+                    "x-content-type-options": [
+                        "nosniff"
+                    ],
+                    "date": [
+                        "Sun, 17 Sep 2017 21:50:38 GMT"
+                    ],
+                    "x-rate-limit-remaining": [
+                        "896"
+                    ],
+                    "server": [
+                        "tsa_o"
+                    ],
+                    "x-frame-options": [
+                        "SAMEORIGIN"
+                    ],
+                    "content-disposition": [
+                        "attachment; filename=json.json"
+                    ],
+                    "x-transaction": [
+                        "004a815600b36a44"
+                    ],
+                    "strict-transport-security": [
+                        "max-age=631138519"
+                    ],
+                    "status": [
+                        "200 OK"
+                    ],
+                    "x-response-time": [
+                        "159"
+                    ],
+                    "x-twitter-response-tags": [
+                        "BouncerCompliant"
+                    ],
+                    "cache-control": [
+                        "no-cache, no-store, must-revalidate, pre-check=0, post-check=0"
+                    ],
+                    "expires": [
+                        "Tue, 31 Mar 1981 05:00:00 GMT"
+                    ],
+                    "set-cookie": [
+                        "personalization_id=\"v1_o7CTAYnAPNE3ufT+ZVtchg==\"; Expires=Tue, 17 Sep 2019 21:50:38 UTC; Path=/; Domain=.twitter.com",
+                        "lang=en; Path=/",
+                        "guest_id=v1%3A150568503855202488; Expires=Tue, 17 Sep 2019 21:50:38 UTC; Path=/; Domain=.twitter.com"
+                    ],
+                    "x-rate-limit-reset": [
+                        "1505685343"
+                    ],
+                    "x-access-level": [
+                        "read-write"
+                    ]
+                },
+                "body": {
+                    "string": "{\"id\":905432328293548032,\"id_str\":\"905432328293548032\",\"name\":\"Real Gri\\u010dki Top\",\"screen_name\":\"realGrickiTop\",\"location\":\"Republic of Croatia\",\"profile_location\":{\"id\":\"8d65596349ee2e01\",\"url\":\"https:\\/\\/api.twitter.com\\/1.1\\/geo\\/id\\/8d65596349ee2e01.json\",\"place_type\":\"unknown\",\"name\":\"Republic of Croatia\",\"full_name\":\"Republic of Croatia\",\"country_code\":\"\",\"country\":\"\",\"contained_within\":[],\"bounding_box\":null,\"attributes\":{}},\"description\":\"Pravo lice Gri\\u010dkog topa\",\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"entities\":{\"url\":{\"urls\":[{\"url\":\"https:\\/\\/t.co\\/haQabn2D5f\",\"expanded_url\":\"https:\\/\\/github.com\\/mislavcimpersak\\/realGrickiTop\",\"display_url\":\"github.com\\/mislavcimpersa\\u2026\",\"indices\":[0,23]}]},\"description\":{\"urls\":[]}},\"protected\":false,\"followers_count\":1,\"friends_count\":0,\"listed_count\":0,\"created_at\":\"Wed Sep 06 14:07:43 +0000 2017\",\"favourites_count\":0,\"utc_offset\":7200,\"time_zone\":\"Zagreb\",\"geo_enabled\":true,\"verified\":false,\"statuses_count\":9,\"lang\":\"en\",\"status\":{\"created_at\":\"Sun Sep 17 09:58:25 +0000 2017\",\"id\":909355856252346368,\"id_str\":\"909355856252346368\",\"text\":\"\\ud83d\\ude31 \\u0160it, skoro sam zaboravio! BOOM!\\n\\nEmoji dana:\\ud83e\\udd1d\",\"truncated\":false,\"entities\":{\"hashtags\":[],\"symbols\":[],\"user_mentions\":[],\"urls\":[]},\"source\":\"\\u003ca href=\\\"https:\\/\\/github.com\\/mislavcimpersak\\/\\\" rel=\\\"nofollow\\\"\\u003erealGri\\u010dkiTop\\u003c\\/a\\u003e\",\"in_reply_to_status_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"geo\":{\"type\":\"Point\",\"coordinates\":[45.814632,15.973277]},\"coordinates\":{\"type\":\"Point\",\"coordinates\":[15.973277,45.814632]},\"place\":{\"id\":\"8d65596349ee2e01\",\"url\":\"https:\\/\\/api.twitter.com\\/1.1\\/geo\\/id\\/8d65596349ee2e01.json\",\"place_type\":\"country\",\"name\":\"Republic of Croatia\",\"full_name\":\"Republic of Croatia\",\"country_code\":\"HR\",\"country\":\"Republic of Croatia\",\"contained_within\":[],\"bounding_box\":{\"type\":\"Polygon\",\"coordinates\":[[[13.4897243,42.3776665],[19.4480171,42.3776665],[19.4480171,46.5549896],[13.4897243,46.5549896]]]},\"attributes\":{}},\"contributors\":null,\"is_quote_status\":false,\"retweet_count\":0,\"favorite_count\":0,\"favorited\":false,\"retweeted\":false,\"lang\":\"und\"},\"contributors_enabled\":false,\"is_translator\":false,\"is_translation_enabled\":false,\"profile_background_color\":\"F5F8FA\",\"profile_background_image_url\":null,\"profile_background_image_url_https\":null,\"profile_background_tile\":false,\"profile_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_images\\/905434504877264896\\/PBzln8IA_normal.jpg\",\"profile_banner_url\":\"https:\\/\\/pbs.twimg.com\\/profile_banners\\/905432328293548032\\/1504707240\",\"profile_link_color\":\"1DA1F2\",\"profile_sidebar_border_color\":\"C0DEED\",\"profile_sidebar_fill_color\":\"DDEEF6\",\"profile_text_color\":\"333333\",\"profile_use_background_image\":true,\"has_extended_profile\":false,\"default_profile\":true,\"default_profile_image\":false,\"following\":false,\"follow_request_sent\":false,\"notifications\":false,\"translator_type\":\"none\",\"suspended\":false,\"needs_phone_verification\":false}"
+                }
+            }
+        }
+    ]
+}
