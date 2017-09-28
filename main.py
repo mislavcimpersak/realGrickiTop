@@ -77,7 +77,7 @@ class Poster(object):
 
         now = datetime.now()
         today = datetime.today()
-        noon = datetime(today.year, today.month, today.day, 21)
+        noon = datetime(today.year, today.month, today.day, 12)
         seconds_left_till_noon = (noon - now).seconds
 
         # whole function shouldn't execute longer then 4 minutes, so it can
