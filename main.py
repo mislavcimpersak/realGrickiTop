@@ -23,7 +23,7 @@ class Poster(object):
         Initialize instance and set instance variables.
         """
         self.set_twitter_api()
-        self.set_last_n_tweets(os.environ.get('NUMBER_OF_LAST_TWEETS', 10))
+        self.set_last_n_tweets(os.environ.get('NUMBER_OF_LAST_TWEETS', 15))
 
     def set_twitter_api(self):
         """
