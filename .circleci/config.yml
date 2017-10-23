@@ -34,6 +34,7 @@ jobs:
           command: |
             . ~/venv/bin/activate
             pip install -r requirements_testing.txt
+            cp secrets_example.json secrets.json
             pytest
             # COVERALLS_REPO_TOKEN env var set in CircleCI web UI
             # coveralls
