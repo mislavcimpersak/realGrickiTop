@@ -3,6 +3,8 @@
         "aws_region": "eu-central-1",
         "s3_bucket": "realgrickitop",
         "apigateway_enabled": false,
+        "profile_name": "mislavcimpersak",  // AWS profile credentials to use from ~/.aws/credentials. Default 'default'.
+        "remote_env": "s3://realgrickitop/secrets.json", // file in s3 bucket containing a flat json object which will be used to set custom environment variables.
 
         "events": [{
             "function": "main.post_tweet",
@@ -47,40 +49,8 @@
                 "cron(58 10 1-26 3 ? 2022)",   // +1 first part of March 2022
                 "cron(58 9 27-31 3 ? 2022)",  // +2 second part of March 2022
                 "cron(58 9 1-29 10 ? 2022)",  // +2 first part of October 2022
-                "cron(58 10 30-31 10 ? 2022)", // +1 second part of October 2022
+                "cron(58 10 30-31 10 ? 2022)" // +1 second part of October 2022
             ]
-        }],
-        "profile_name": "mislavcimpersak",  // AWS profile credentials to use from ~/.aws/credentials. Default 'default'.
-        "remote_env": "s3://realgrickitop/secrets.json", // optional file in s3 bucket containing a flat json object which will be used to set custom environment variables.
-        "exclude": [
-            "[iI][pP]y*",
-            "jupyter*",
-            "notebook*",
-            "[jJ]inja*",
-            "__pycache__",
-            "test*",
-            "_?pytest*",
-            "pytest_cov*",
-            "pytest_sugar*",
-            ".?coverage*",
-            "mock*",
-            "moto*",
-            "responses*",
-            "pep8*",
-            "pylint*",
-            "appnope*",
-            "astroid*",
-            "bleach*",
-            "jedi*",
-            "markupsafe*",
-            "nbconvert*",
-            "nbformat*",
-            "pbr*",
-            "pexpect*",
-            "qtconsole*",
-            "slugify*",
-            "tornado*",
-            "traitlets*"
-        ]
+        }]
     }
 }
