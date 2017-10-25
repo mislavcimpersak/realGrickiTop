@@ -1,8 +1,8 @@
 -r requirements.txt
 
-coverage
-pytest
-pytest-cov
-pytest-sugar
-responses
-vcrpy
+coverage==4.4.1
+pytest==3.2.3
+pytest-cov==2.5.1
+pytest-sugar==0.9.0
+responses==0.8.1
+vcrpy==1.11.1
