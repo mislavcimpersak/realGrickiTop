@@ -1,4 +1,4 @@
-emoji
-iopipe
-tweepy
-zappa
+emoji==0.4.5
+iopipe==0.7.1
+tweepy==3.5.0
+zappa==0.44.3
