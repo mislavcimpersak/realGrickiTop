@@ -1,3 +1,4 @@
+import json
 import os
 import re
 
@@ -9,6 +10,10 @@ from .config import tape
 
 def test_dummy():
     assert 1 + 1 == 2
+
+
+def test_data_tweets_json_file_is_valid():
+    assert json.loads(open('data/tweets.json', 'r').read())
 
 
 # @tape.use_cassette('test_poster.json')
